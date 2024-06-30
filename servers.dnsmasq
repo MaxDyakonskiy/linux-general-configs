@@ -1,0 +1,4 @@
+server=/*.ru/77.88.8.88
+server=/*.ru/77.88.8.2
+server=/*.ru/2a02:6b8::feed:bad
+server=/*.ru/2a02:6b8:0:1::feed:bad

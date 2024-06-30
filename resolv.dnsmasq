@@ -1,0 +1,11 @@
+# OpenDNS
+nameserver 208.67.222.222
+nameserver 208.67.220.220
+nameserver 2620:119:35::35
+nameserver 2620:119:53::53
+
+# Quad9
+nameserver 9.9.9.9
+nameserver 149.112.112.112
+nameserver 2620:fe::fe
+nameserver 2620:fe::9
