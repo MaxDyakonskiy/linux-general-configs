@@ -1,6 +1,8 @@
 #!/bin/sh
 
 alias check-initd-order='check-initd-order -d'
+alias fc='firewall-cmd'
+alias zathura='zathura --mode=fullscreen'
 alias pgrep='pgrep --list-full --ignore-case'
 alias pmap='pmap --extended --show-path'
 alias fuser='fuser --all --verbose'
