@@ -1,8 +1,13 @@
 #!/bin/sh
 
+alias hextodec='printf "%d\n" '
+alias dectohex='printf "%x\n" '
+alias tl0='sudo telinit 0'
+alias tl6='sudo telinit 6'
 alias check-initd-order='check-initd-order -d'
 alias fc='firewall-cmd'
-alias zathura='zathura --mode=fullscreen'
+alias lsblk='lsblk -o +FSTYPE,FSVER,FSAVAIL,FSUSE%,PARTLABEL'
+#alias zathura='zathura --mode=fullscreen'
 alias pgrep='pgrep --list-full --ignore-case'
 alias pmap='pmap --extended --show-path'
 alias fuser='fuser --all --verbose'
@@ -14,7 +19,7 @@ alias less='less --LONG-PROMPT --raw-control-chars'
 alias autoscan='autoscan --verbose --debug'
 alias pidstat='S_COLORS=always pidstat -urdsvw -tU --human -G'
 alias at='at -M'
-alias make='make --debug=a --jobs=4 --load-average=10.0 --output-sync=target --print-data-base --trace --print-directory'
+#alias make='make --debug=a --jobs=4 --load-average=10.0 --output-sync=target --print-data-base --trace --print-directory'
 alias smem='\
 sudo smem --autosize --abbreviate --sort=rss --totals --users && \
 sudo smem --autosize --abbreviate --totals --system && \
